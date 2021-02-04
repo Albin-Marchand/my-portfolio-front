@@ -36,7 +36,14 @@ const Work = () => {
       <p>{work[0].description}</p>
       <p>{work[0].date}</p>
       <p>{work[0].duration}</p>
-      <p>{work[0].id}</p>
+      <p>{work[1].name}</p>
+      <p>{work[1].description}</p>
+      <p>{work[1].date}</p>
+      <p>{work[1].duration}</p>
+      <p>{work[2].name}</p>
+      <p>{work[2].description}</p>
+      <p>{work[2].date}</p>
+      <p>{work[2].duration}</p>
     </div>
   );
 };
