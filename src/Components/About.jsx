@@ -35,12 +35,12 @@ const Cv = styled.img`
   margin-right: auto;
   background-color: transparent;
   display: flex;
-  width: 30%;
+  width: 25%;
   margin-top: 15px;
   transition: ease-in-out 0.3s;
   &:hover {
     transition: transform 0.3s;
-    transform: scale(1.8);
+    transform: scale(1.5);
   }
 `;
 
@@ -60,6 +60,7 @@ const Image = styled.img`
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
   transition: ease-in-out 0.3s;
+  opacity: 0.8;
   &:hover {
     -webkit-filter: grayscale(100%);
     filter: grayscale(0%);
