@@ -37,7 +37,9 @@ const Work = () => {
       <div>
         <RowReverse>
           <Col>
-            <Image src={miren} alt="" />
+            <a href="https://www.mirenpoppins.com/" target="_blank">
+              <Image src={miren} alt="" />
+            </a>
           </Col>
           <Col>
             <p>{work[0].name}</p>
@@ -58,14 +60,24 @@ const Work = () => {
             <p>{work[1].description}</p>
           </Col>
           <Col>
-            <Image src={wildnews} alt="" />
+            <a
+              href="https://github.com/WildCodeSchool/btz-0920-p2-news"
+              target="_blank"
+            >
+              <Image src={wildnews} alt="" />
+            </a>
           </Col>
         </Row>
       </div>
       <div>
         <RowReverse>
           <Col>
-            <Image src={burger} alt="" />
+            <a
+              href="https://wildcodeschool.github.io/btz_p1_star-burgers/index.html"
+              target="_blank"
+            >
+              <Image src={burger} alt="" />
+            </a>
           </Col>
           <Col>
             <p>{work[2].name}</p>
